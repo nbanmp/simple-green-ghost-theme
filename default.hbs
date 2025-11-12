@@ -10,7 +10,19 @@
 <body class="{{body_class}}">
     <div class="container">
         <header class="site-header">
-            <h1><a href="{{@site.url}}/writing/">{{@site.title}}</a></h1>
+            <div class="header-left">
+                <h1><a href="{{@site.url}}/writing/">{{@site.title}}</a></h1>
+                {{#if @site.navigation}}
+                <nav class="primary-nav">
+                    {{navigation}}
+                </nav>
+                {{/if}}
+            </div>
+            {{#if @site.secondary_navigation}}
+            <nav class="secondary-nav">
+                {{navigation type="secondary"}}
+            </nav>
+            {{/if}}
         </header>
         <main>
             {{{body}}}
