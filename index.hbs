@@ -3,13 +3,7 @@
 <div class="post-list">
     {{#foreach posts}}
     <article class="post-item">
-        <h2><a href="{{url}}">{{title}}</a></h2>
-        <div class="post-meta">
-            {{date published_at format="YYYY-MM-DD"}}
-            {{#if primary_tag}}
-            · <a href="{{primary_tag.url}}">{{primary_tag.name}}</a>
-            {{/if}}
-        </div>
+        <h2><a href="{{url}}">{{title}}</a> <span class="post-date">({{date published_at format="YYYY-MM-DD"}})</span></h2>
     </article>
     {{/foreach}}
 </div>

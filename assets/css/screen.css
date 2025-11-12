@@ -125,6 +125,12 @@ main {
     text-decoration: underline;
 }
 
+.post-date {
+    font-size: 8pt;
+    color: #828282;
+    font-weight: normal;
+}
+
 .post-header {
     margin-bottom: 16px;
 }

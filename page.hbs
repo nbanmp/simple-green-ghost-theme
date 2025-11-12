@@ -9,10 +9,7 @@
             <img src="{{feature_image}}" alt="{{title}}">
         </figure>
         {{/if}}
-        <h1>{{title}}</h1>
-        <div class="post-meta">
-            {{date published_at format="YYYY-MM-DD"}}
-        </div>
+        <h1>{{title}} <span class="post-date">({{date published_at format="YYYY-MM-DD"}})</span></h1>
     </header>
     {{/if}}
     <div class="post-content">
