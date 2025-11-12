@@ -1,0 +1,10 @@
+{
+  "name": "hn-green",
+  "version": "1.0.0",
+  "engines": {
+    "ghost-api": "v5"
+  },
+  "config": {
+    "posts_per_page": 30
+  }
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{meta_title}}</title>
+    {{ghost_head}}
+    <link rel="stylesheet" href="{{asset "css/screen.css"}}">
+</head>
+<body class="{{body_class}}">
+    <div class="container">
+        <header class="site-header">
+            <h1><a href="{{@site.url}}/writing/">{{@site.title}}</a></h1>
+        </header>
+        <main>
+            {{{body}}}
+        </main>
+    </div>
+    {{ghost_foot}}
+</body>
+</html>
