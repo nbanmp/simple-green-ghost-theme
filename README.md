@@ -4,6 +4,6 @@ A minimalist Ghost theme.
 
 ## Installation
 
-1. Download the [latest release](../../releases/latest)
-2. Upload to Ghost Admin → Settings → Design
-3. Activate the theme
+1. Download the source code zip for the [latest release](../../releases/latest)
+2. Go to Ghost Admin → Settings → Design
+3. Upload the theme!
