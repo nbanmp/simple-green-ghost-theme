@@ -2,7 +2,10 @@
   "name": "simple-green-ghost-theme",
   "version": "1.0.0",
   "engines": {
-    "ghost-api": "v5"
+    "ghost-api": "v6"
+  },
+  "author": {
+    "email": "nbanmp@gmail.com"
   },
   "config": {
     "posts_per_page": 30
