@@ -94,6 +94,16 @@ main {
     margin-bottom: 8px;
 }
 
+.post-feature-image {
+    margin: 0 0 16px 0;
+}
+
+.post-feature-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .post-content {
     line-height: 1.5;
 }
