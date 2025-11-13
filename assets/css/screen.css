@@ -217,6 +217,13 @@ main {
     height: auto;
 }
 
+.post-content figcaption {
+    text-align: center;
+    font-size: 9pt;
+    color: #828282;
+    margin-top: 8px;
+}
+
 .pagination {
     margin-top: 16px;
     padding: 8px 0;
