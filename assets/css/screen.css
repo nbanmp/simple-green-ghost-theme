@@ -202,6 +202,14 @@ main {
     margin-bottom: 4px;
 }
 
+.post-content blockquote {
+    margin-left: 24px;
+    margin-bottom: 12px;
+    padding-left: 12px;
+    border-left: 2px solid #828282;
+    color: #333;
+}
+
 .post-content img {
     display: block;
     margin: 16px auto;
