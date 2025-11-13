@@ -211,6 +211,7 @@ main {
 }
 
 .post-content figure {
+    display: table;
     margin: 16px auto;
     max-width: 100%;
 }
